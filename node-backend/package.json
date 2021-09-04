@@ -1,0 +1,15 @@
+{
+  "name": "node-backend",
+  "version": "1.0.0",
+  "description": "node backend to talk to redis",
+  "main": "src/index.js",
+  "scripts": {
+    "it": "tsc && node dist/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/redis": "^2.8.31",
+    "redis": "^4.0.0-rc.0",
+    "typescript": "^4.4.2"
+  }
+}

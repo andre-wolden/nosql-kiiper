@@ -1,0 +1,11 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "lib": ["ES2015", "ESNext", "dom"],
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "target": "ESNext"
+  }
+}
